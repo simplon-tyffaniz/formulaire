@@ -7,9 +7,9 @@ echo "Infos complémentaires ".$_POST['informations_complementaires'];
 
 
 
-$message =$_POST['Nom'];['Prénom'];['courriel'];['informations_complémentaires'];
+$message = $_POST['Nom']."\n".$_POST['Prénom']."\n".$_POST['courriel']."\n".$_POST['informations_complementaires'];
 
-$fichier=fopen('contacts', 'a+');
+$fichier = fopen('contacts', 'a+');
 
 fputs($fichier, $message);
 fclose($fichier);
