@@ -8,13 +8,13 @@
 <h1>Formulaire à compléter</h1>
 <p> <?php echo strftime('%A %d %B %Y, %H:%M');?> </p>
 </br></br></br>
-  <form action="traitement.php" method="post">
+  <form action="testpdo.php" method="post">
 
     <label for="Nom">Votre nom:</label>
    <input type="text" name="Nom" id="Nom"/>
 </br></br>
-   <label for="Prénom">Votre prénom:</label>
-  <input type="text" name="Prénom" id="Prénom"/>
+   <label for="Prenom">Votre prenom:</label>
+  <input type="text" name="Prenom" id="Prenom"/>
 </br></br>
 
   <label for "courriel">Courriel:</label>
